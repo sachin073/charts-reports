@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--# static text for action request-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select a .xls or .xlsx file"
+        android:textAlignment="center"
+        android:textSize="80px"
+        android:layout_marginTop="10dp"
+        android:id="@+id/STATIC_ACTION_REQUEST"
+        />
+
+<!--# dynamic location of user folder-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="current location"
+        android:textSize="40px"
+        android:textAlignment="center"
+        android:id="@+id/CURRENT_FOLDER_LOCATION"
+        android:layout_margin="10dp"
+        />
+
+<!--# view for rows (img + text )-->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ITEM_LIST"
+        android:textAlignment="center"
+        >
+
+
+    </ListView>
+
+</LinearLayout>

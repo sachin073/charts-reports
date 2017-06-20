@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="1"
+    >
+
+    <TableRow>
+
+<!--# img of folder or file -->
+        <ImageView
+            android:id="@+id/FOLDER_FILE_IMG"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            />
+
+<!--# text for file or folder name with location-->
+        <TextView
+            android:id="@+id/FOLDER_FILE_NAME"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:clickable="false"
+            android:layout_weight="1"
+            android:text="Sample text for demo"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textSize="80px"
+            android:ellipsize="none"
+            android:textStyle="bold|italic" />
+    </TableRow>
+
+
+
+</TableLayout>
